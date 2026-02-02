@@ -6,6 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: "/Innovationc-coach-frontend/",
   base: "/Innovation-coach-admin-dashboard/",
 })
