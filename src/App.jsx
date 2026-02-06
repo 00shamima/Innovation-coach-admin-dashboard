@@ -1,4 +1,3 @@
-// 1. HashRouter-ah import pannunga
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom"; 
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
@@ -9,7 +8,7 @@ function App() {
   const isAdmin = token && role === 'ADMIN';
 
   return (
-   
+  
     <HashRouter>
       <Routes>
         <Route path="/" element={<AdminLogin />} />
